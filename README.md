@@ -70,7 +70,7 @@ Again, the subtitle files are saved into the S3 bucket.
 *ECS was used for this step as I felt it was too much to do within airflow*
 
 ### captions_to_s3_ecs_task
-*script: container_scripts/captions_to_s3.py*
+*script: container_scripts/video_items_to_s3.py*
 
 
 This task runs a docker container on AWS ECS.
